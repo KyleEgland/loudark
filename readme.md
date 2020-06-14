@@ -15,3 +15,8 @@ I. Proxy network traffic
     4. Receive response from destination
     5. Provide access to response for later use
 II. Log proxied traffic to file
+
+## Credits
+
+* _[Black Hat Python](https://nostarch.com/blackhatpython)_  by Justin Seitz
+* ["Socket Programming in Python (Guide)"](https://realpython.com/python-sockets/#multi-connection-client-and-server) by Nathan Jennings

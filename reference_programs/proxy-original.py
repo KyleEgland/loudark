@@ -9,8 +9,7 @@ import threading
 # http://code.activestate.com/recipes/142812-hex-dumper/
 def hexdump(src, length=16):
     result = []
-    # digits = 4 if isinstance(src, unicode) else 2
-    # unicode is only available in Python 2
+    digits = 4 if isinstance(src, unicode) else 2
     digits = 4 if isinstance(src, str) else 2
 
     for i in xrange(0, len(src), length):
